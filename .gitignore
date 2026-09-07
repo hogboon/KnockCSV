@@ -1,0 +1,19 @@
+# macOS
+
+.DS_Store .AppleDouble .LSOverride \_\_MACOSX/
+
+# Calypsi / build output
+
+*.o *.lst \*.map
+
+# KnockCSV generated executables
+
+KNOCKCSV EDIT SEARCH
+
+# Disk images
+
+\*.d81
+
+# Temporary / backup files
+
+*\~ *.bak \*.tmp
