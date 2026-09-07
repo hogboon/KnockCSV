@@ -7,6 +7,12 @@ The project aims to provide a spreadsheet-like environment for working
 with CSV files on systems where modern spreadsheet applications are
 unavailable or impractical.
 
+## Screenshot
+
+![KnockCSV 1.0 running on MEGA65](screenshots/knockcsv.png)
+
+*KnockCSV 1.0 running on the MEGA65.*
+
 ## Supported platforms
 
   Platform       Status
@@ -79,9 +85,9 @@ make
 This builds the three executables used by the MEGA65 version:
 
 ``` text
-KNOCKCSV
-EDIT
-SEARCH
+KnockCSV.prg
+edit.prg
+search.prg
 ```
 
 The `SPLASH` file is also required at runtime and must be available
@@ -108,9 +114,9 @@ CSV operations.
 The application is divided into three executables to reduce conventional
 memory usage:
 
--   **KNOCKCSV** --- main application and CSV viewer
--   **EDIT** --- editing operations
--   **SEARCH** --- Find and Replace functions
+-   **KnockCSV.prg** --- main application and CSV viewer
+-   **edit.prg** --- editing operations
+-   **search.prg** --- Find and Replace functions
 
 The overlays are loaded when required and return control to the main
 application.
